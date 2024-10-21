@@ -11,7 +11,7 @@
 # Do not use any external libraries or frameworks to build this project.
 # Ensure to handle errors and edge cases gracefully.
 
-tasks = [{'desc':'hacer tarea','status':'done'},{'desc':'hacer tareilla','status':'In progress'}]
+tasks = [{'desc':'hacer tarea','status':'done'},{'desc':'hacer tarea2','status':'In progress'}]
 
 #TODO: sin parametros listar todas, optional params: done (filtra dones), todo, in-progress.
 def list_all_tasks():

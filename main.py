@@ -8,8 +8,8 @@ def main():
     else:
         print(sys.argv)
         match sys.argv[1]:
-            case "hola":
-                print("escribieron hola")
+            case "add":
+                print("add task")
             case _:
                 print("other")
 
